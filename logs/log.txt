@@ -1,0 +1,36 @@
+2017-03-25 18:13:44.057 ERROR by.epam.uber.generator.ClientActivityGenerator [main] Cannot choose taxi. No taxis added
+2017-03-25 18:17:46.033 ERROR by.epam.uber.generator.ClientActivityGenerator [main] Cannot choose taxi. No taxis added
+2017-03-25 18:22:00.015 INFO by.epam.uber.manager.Manager [main] Added taxi: Taxi: id 10000
+2017-03-26 22:34:47,310 INFO by.epam.uber.manager.Manager [main] Added taxi: Taxi: id 10001
+2017-03-26 22:34:47,313 DEBUG by.epam.uber.timedistance.Calculator [main] TAXIS EMPTY: false
+2017-03-26 22:34:47,313 DEBUG by.epam.uber.timedistance.Calculator [main] In calcBestValue
+2017-03-26 22:34:47,314 DEBUG by.epam.uber.timedistance.Calculator [main] In CalcTimeDistance: distance - 14406.330337082445
+2017-03-26 22:39:28,868 INFO by.epam.uber.manager.Manager [main] Added taxi: Taxi: id 10000, location Location(27.471174941215253, 53.96037776680326)
+2017-03-26 22:39:28,871 INFO by.epam.uber.manager.Manager [main] Added taxi: Taxi: id 10001, location Location(27.67875175029187, 53.89944780573591)
+2017-03-26 22:39:28,874 DEBUG by.epam.uber.timedistance.Calculator [main] TAXIS EMPTY: false
+2017-03-26 22:39:28,874 DEBUG by.epam.uber.timedistance.Calculator [main] In calcBestValue
+2017-03-26 22:39:28,875 DEBUG by.epam.uber.timedistance.Calculator [main] In CalcTimeDistance: distance - 10341.121191194568
+2017-03-26 22:39:28,876 DEBUG by.epam.uber.timedistance.Calculator [main] In CalcTimeDistance: distance - 20892.327464558068
+2017-03-26 22:39:28,879 DEBUG by.epam.uber.timedistance.Calculator [main] TAXIS EMPTY: false
+2017-03-26 22:39:28,879 DEBUG by.epam.uber.taxi.TaxiThread [Thread-3] TAXI THREAD RELEASED LOCK
+2017-03-26 22:39:28,880 DEBUG by.epam.uber.timedistance.Calculator [main] In calcBestValue
+2017-03-26 22:39:28,880 DEBUG by.epam.uber.timedistance.Calculator [main] In CalcTimeDistance: distance - 2554.0982482679556
+2017-03-26 22:39:28,880 DEBUG by.epam.uber.timedistance.Calculator [Thread-3] In CalcTimeDistance: distance - 10341.121191194568
+2017-03-26 22:39:28,880 INFO by.epam.uber.taxi.TaxiThread [Thread-3] TIMEWILLTAKE 10
+2017-03-26 22:39:28,881 DEBUG by.epam.uber.taxi.TaxiThread [Thread-5] TAXI THREAD RELEASED LOCK
+2017-03-26 22:39:28,881 DEBUG by.epam.uber.timedistance.Calculator [main] TAXIS EMPTY: false
+2017-03-26 22:39:28,881 DEBUG by.epam.uber.timedistance.Calculator [main] In calcBestValue
+2017-03-26 22:39:28,882 DEBUG by.epam.uber.timedistance.Calculator [Thread-5] In CalcTimeDistance: distance - 2554.0982482679556
+2017-03-26 22:39:28,882 INFO by.epam.uber.taxi.TaxiThread [Thread-5] TIMEWILLTAKE 2
+2017-03-26 22:39:30,911 INFO by.epam.uber.taxi.TaxiThread [Thread-5] Taxi 10001 picking client 101 up
+2017-03-26 22:39:30,914 DEBUG by.epam.uber.timedistance.Calculator [Thread-5] In CalcTimeDistance: distance - 7141.507780953289
+2017-03-26 22:39:30,916 INFO by.epam.uber.taxi.TaxiThread [Thread-5] TIMEWILLTAKE 7
+2017-03-26 22:39:37,917 INFO by.epam.uber.taxi.TaxiThread [Thread-5] 
+Taxi 10001 brought client 101 to target location
+2017-03-26 22:39:38,910 INFO by.epam.uber.taxi.TaxiThread [Thread-3] Taxi 10000 picking client 100 up
+2017-03-26 22:39:38,911 DEBUG by.epam.uber.timedistance.Calculator [Thread-3] In CalcTimeDistance: distance - 26742.764408863888
+2017-03-26 22:39:38,911 INFO by.epam.uber.taxi.TaxiThread [Thread-3] TIMEWILLTAKE 26
+2017-03-26 22:40:04,912 INFO by.epam.uber.taxi.TaxiThread [Thread-3] 
+Taxi 10000 brought client 100 to target location
+
+
